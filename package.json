@@ -1,6 +1,6 @@
 {
   "name": "node-underline",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "an underline tool",
   "main": "index.js",
   "scripts": {
