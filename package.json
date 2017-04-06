@@ -1,0 +1,27 @@
+{
+  "name": "node-underline",
+  "version": "0.0.5",
+  "description": "an underline tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && npm run cov",
+    "test-local": "mocha test/**/*.test.js -r intelli-espower-loader",
+    "cov": "istanbul cover _mocha test/**/*.test.js",
+    "lint": "eslint --ext .js lib",
+    "lint-fix": "eslint --ext .js --fix lib"
+  },
+  "keywords": [
+    "underline",
+    "terminal"
+  ],
+  "author": "wanghx",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-egg": "^3.2.0",
+    "intelli-espower-loader": "^1.0.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "power-assert": "^1.4.2"
+  }
+}
