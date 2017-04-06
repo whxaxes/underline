@@ -5,7 +5,7 @@
 [![Appveyor status][appveyor-image]][appveyor-url]
 [![Coverage Status][coveralls-image]][coveralls-url]
 
-A simple tool for generating a friendly error message.
+A simple tool for generating friendly error message.
 
 ## Quick start
 
