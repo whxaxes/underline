@@ -16,13 +16,13 @@ npm install node-underline
 ```javascript
 const underline = require('node-underline');
 const string = `const perLineList = str.split(nlRE);
-               const len = perLineList.length;
-               let i = 0;
-               let lineCount = 0;
-               while(i < len) {
-                 const currentLine = perLineList[i];
-                 i++;
-               }` 
+const len = perLineList.length;
+let i = 0;
+let lineCount = 0;
+while(i < len) {
+ const currentLine = perLineList[i];
+ i++;
+}`
 const result = underline(string, 104, 113);
 console.log(result.text);
 ```
